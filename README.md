@@ -9,4 +9,5 @@
 3. Go to the Less secure app access section of your Google Account (https://myaccount.google.com/lesssecureapps). You might need to sign in.
 4. Turn Allow less secure apps off.
 
- 
+ # Credit
+ PHPMailer (https://github.com/PHPMailer/PHPMailer)
