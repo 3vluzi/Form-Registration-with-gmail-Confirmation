@@ -155,7 +155,9 @@ if (isset($_POST['daftarkan'])) {
                                     <input type="email" name="alamat_email" class="form-control" id="alamat_email" placeholder="Isikan Email Aktif" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Isikan Email Aktif'" onKeyUp="this.value=removeSpaces(this.value);" required>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-info" name="daftarkan">DAFTAR SEKARANG</button>
+                                    <button type="submit" class="btn btn-info g-recaptcha" data-sitekey="YOUR_SITE_KEY" data-callback='onSubmit' name="daftarkan">DAFTAR SEKARANG</button>
+                     
+                                    
                                 </div>
                             </div>
                         </div>
