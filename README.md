@@ -1,5 +1,7 @@
 # Form Registration with gmail Confirmation
  User mengisi form, sistem akan mencek apakah email sudah terdaftar atau belum.  Jika belum terdaftar, sistem akan mengirimkan email ke pendaftar sekaligus mencatat datanya di database.
+ 
+ The user fills out the form, the system will check whether the email has been registered or not. If not registered, the system will send an email to the registrant while recording the data in the database.
 
 # Gmail setting
 1. create gmail
