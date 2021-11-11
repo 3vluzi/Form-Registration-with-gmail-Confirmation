@@ -134,6 +134,12 @@ if (isset($_POST['daftarkan'])) {
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>FORM PENDAFTARAN BY IZULTHEA</title>
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+     <script>
+       function onSubmit(token) {
+         document.getElementById("form").submit();
+       }
+     </script>
 </head>
 <body>
     <div class="container p-3">
@@ -143,7 +149,7 @@ if (isset($_POST['daftarkan'])) {
                     <h1>SAMPLE FORM PENDAFTARAN, CONFIRM KE EMAIL</h1>
                     <h3>By <a href="https://izulthea.com">Izulthea.com</a></h3>
                     <!-- ---------------------------- konten utama 2021-11-11 jam  07:58:38.000-05:00 ----------------------------- -->
-                    <form acttion="" method="POST">
+                    <form acttion="" method="POST" id="form">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
