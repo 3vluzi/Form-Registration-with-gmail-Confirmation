@@ -9,6 +9,10 @@
 3. Go to the Less secure app access section of your Google Account (https://myaccount.google.com/lesssecureapps). You might need to sign in.
 4. Turn Allow less secure apps off.
 
+# Integrate Google Recaptcha
+- Register Grecaptcha (https://www.google.com/recaptcha/)
+- Get SiteKey and SecretKey Recaptcha Google. Example impelementation di https://developers.google.com/recaptcha/docs/invisible
+
  # Credit
  PHPMailer (https://github.com/PHPMailer/PHPMailer)
 
